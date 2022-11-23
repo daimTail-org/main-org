@@ -1,1 +1,3 @@
-# mvn clean test
+running basic junit test 
+
+    mvn clean test
