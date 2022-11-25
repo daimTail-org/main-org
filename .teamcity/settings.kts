@@ -56,8 +56,7 @@ object Build : BuildType({
 
     features {
         approval {
-            approvalRules = "user:mini-dtsyg"
-            timeout = 36000
+            approvalRules = "user:mini-dts"
             manualRunsApproved = false
         }
     }
