@@ -1,7 +1,6 @@
 package patches.buildTypes
 
 import jetbrains.buildServer.configs.kotlin.*
-import jetbrains.buildServer.configs.kotlin.buildFeatures.Approval
 import jetbrains.buildServer.configs.kotlin.buildFeatures.approval
 import jetbrains.buildServer.configs.kotlin.ui.*
 
@@ -12,17 +11,11 @@ accordingly, and delete the patch script.
 */
 changeBuildType(RelativeId("Build")) {
     features {
-        val feature1 = find<Approval> {
+        remove {
             approval {
                 approvalRules = "user:dts"
                 manualRunsApproved = false
             }
-        }
-        feature1.apply {
-            approvalRules = """
-                user:dts
-                user:mini-dts
-            """.trimIndent()
         }
     }
 }
