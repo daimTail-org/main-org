@@ -58,9 +58,8 @@ object Build : BuildType({
         approval {
             enabled = false
             approvalRules = """
-                user:dts
-                user:mini-dtsyg
-                user:micro-dts
+                user:mini-dts
+                group:qwa:1
             """.trimIndent()
         }
     }
