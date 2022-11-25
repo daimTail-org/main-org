@@ -56,7 +56,10 @@ object Build : BuildType({
 
     features {
         approval {
+            approvalRules = "user:mini-dts"
             approvalRules = "user:micro-dts"
+            approvalRules = "user:nano-dtsyg"
+            approvalRules = "user:dts"
             manualRunsApproved = false
         }
     }
