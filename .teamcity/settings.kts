@@ -56,6 +56,7 @@ object Build : BuildType({
 
     features {
         approval {
+            enabled = false
             approvalRules = """
                 user:dts
                 user:mini-dtsyg
