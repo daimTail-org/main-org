@@ -56,7 +56,6 @@ object Build : BuildType({
 
     features {
         approval {
-            enabled = false
             approvalRules = "user:micro-dts"
             manualRunsApproved = false
         }
