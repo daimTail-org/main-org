@@ -57,7 +57,6 @@ object Build : BuildType({
     features {
         approval {
             approvalRules = "user:mini-dts"
-            manualRunsApproved = false
         }
     }
 })
