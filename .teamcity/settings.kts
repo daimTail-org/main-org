@@ -57,11 +57,9 @@ object Build : BuildType({
     features {
         approval {
             approvalRules = """
-                group:qwa:2
-                group:tleads:1
+                user:dts
             """.trimIndent()
             timeout = 1
-            manualRunsApproved = false
         }
     }
 })
