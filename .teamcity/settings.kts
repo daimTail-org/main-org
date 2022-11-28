@@ -56,7 +56,6 @@ object Build : BuildType({
 
     features {
         approval {
-            enabled = false
             approvalRules = """
                 group:qwa:2
                 group:tleads:1
