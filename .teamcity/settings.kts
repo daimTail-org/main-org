@@ -60,6 +60,7 @@ object Build : BuildType({
                 user:mini-dts
                 group:qwa:2
             """.trimIndent()
+            timeout = 1
         }
     }
 })
