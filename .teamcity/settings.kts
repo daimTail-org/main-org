@@ -56,10 +56,8 @@ object Build : BuildType({
 
     features {
         approval {
-            enabled = false
             approvalRules = """
                 user:dts
-                group:qwa:1
             """.trimIndent()
         }
     }
