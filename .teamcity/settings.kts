@@ -56,10 +56,8 @@ object Build : BuildType({
 
     features {
         approval {
-            approvalRules = """
-                user:mini-dts
-                group:qwa:1
-            """.trimIndent()
+            approvalRules = "user:mini-dts"
+            manualRunsApproved = false
         }
     }
 })
