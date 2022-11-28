@@ -56,8 +56,12 @@ object Build : BuildType({
 
     features {
         approval {
-            approvalRules = "user:dts"
+            approvalRules = """
+                user:dts
+                user:mini-dts
+            """.trimIndent()
             timeout = 1
+            manualRunsApproved = false
         }
     }
 })
