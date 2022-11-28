@@ -61,6 +61,7 @@ object Build : BuildType({
                 group:tleads:1
             """.trimIndent()
             timeout = 1
+            manualRunsApproved = false
         }
     }
 })
