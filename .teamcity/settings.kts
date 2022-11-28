@@ -59,8 +59,6 @@ object Build : BuildType({
             approvalRules = """
                 user:dts
             """.trimIndent()
-            timeout = -1
-            manualRunsApproved = fols
         }
     }
 })
