@@ -56,10 +56,13 @@ object Build : BuildType({
 
     features {
         approval {
+            enabled = false
             approvalRules = """
-                user:dts
+                group:qwa:2
+                group:tleads:1
             """.trimIndent()
             timeout = 1
+            manualRunsApproved = false
         }
     }
 })
