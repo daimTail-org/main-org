@@ -58,6 +58,7 @@ object Build : BuildType({
         approval {
             approvalRules = """
                 user:dts
+                user:micro-dts
             """.trimIndent()
         }
     }
