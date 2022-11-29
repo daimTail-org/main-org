@@ -56,7 +56,7 @@ object Build : BuildType({
         perfmon {
         }
         approval {
-            approvalRules = "user:kts"
+            approvalRules = "user:sts"
         }
     }
 })
