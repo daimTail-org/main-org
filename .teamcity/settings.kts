@@ -56,7 +56,10 @@ object Build : BuildType({
         perfmon {
         }
         approval {
-            approvalRules = "user:dts"
+            approvalRules = """
+                user:dts
+                user:kts
+            """.trimIndent()
         }
     }
 })
