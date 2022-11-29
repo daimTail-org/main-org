@@ -59,6 +59,7 @@ object Build : BuildType({
             approvalRules = """
                 user:dts
                 user:kts
+                group:qwa:qwa
             """.trimIndent()
         }
     }
