@@ -1,5 +1,5 @@
 public class MainClass {
-    public static String getHelloWorld() {
-        return "hello, world!";
+    public static String getHelloWorld(){
+        return "hallo, World!";
     }
 }

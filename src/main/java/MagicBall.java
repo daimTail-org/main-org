@@ -1,6 +1,6 @@
 public class MagicBall {
 
-    public static int getLucky() {
+    public static int getLucky(){
         return 8;
     }
 }
