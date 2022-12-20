@@ -1,4 +1,5 @@
-basic project for basic TC-builds 
+basic project for basic TC-builds
 
-    mvn clean test
+    maven + JUnit
 
+main-branch version
