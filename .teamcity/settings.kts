@@ -39,7 +39,7 @@ object EchoBuild : BuildType({
 
     steps {
         script {
-            scriptContent = "echo '${DslContext.getParameter("echoText")}'"
+            scriptContent = "echo ${DslContext.getParameter('echoText')}, my dudes!"
         }
     }
 })
