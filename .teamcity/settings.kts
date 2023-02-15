@@ -69,6 +69,8 @@ object EndBuild : BuildType({
                 minute = 15
             }
             triggerBuild = always()
+            withPendingChangesOnly = false
+            param("revisionRuleDependsOn", "Tw79771_MiddleBuild")
 
             enforceCleanCheckout = true
             enforceCleanCheckoutForDependencies = true
