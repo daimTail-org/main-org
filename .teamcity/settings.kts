@@ -66,7 +66,7 @@ object EndBuild : BuildType({
         schedule {
             schedulingPolicy = daily {
                 hour = 18
-                minute = 15
+                minute = 45
             }
             triggerBuild = always()
             withPendingChangesOnly = false
