@@ -57,6 +57,14 @@ object MainBuild : BuildType({
                 authType = vcsRoot()
             }
         }
+        commitStatusPublisher {
+            vcsRootExtId = "${HttpsGitlabComTcqaTestDtsFirstGitRefsHeadsMain.id}"
+            publisher = gitlab {
+                gitlabApiUrl = "https://gitlab.com/api/v4"
+            }
+            param("tokenId", "tc_token_id:CID_8e04b49e66d6912ae30e9a3eda807dcf:1:669cccd8-9f3d-4976-bc33-f16ba485be30")
+            param("authType", "storedToken")
+        }
     }
 })
 
