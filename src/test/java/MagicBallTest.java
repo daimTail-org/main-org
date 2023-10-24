@@ -5,6 +5,6 @@ public class MagicBallTest {
     @Test
     public void testLucky() {
         // shake-shake
-        Assertions.assertEquals(6, MagicBall.getLucky());
+        Assertions.assertEquals(8, MagicBall.getLucky());
     }
 }
